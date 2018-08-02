@@ -186,6 +186,34 @@ a {
     margin-right: auto;    
 }
 
-.entry-number {
-    
+.post {
+    position: relative;
+    padding-top: 60px;
 }
+
+.entry-number {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: solid 20px #FF0066;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF0066;
+    z-index: 1;
+}
+
+.entry-title,
+.entry-price {
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    background: red !important;
+  }
