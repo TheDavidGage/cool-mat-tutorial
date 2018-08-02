@@ -214,6 +214,22 @@ a {
     z-index: 2;
 }
 
-body {
-    background-color: red !important;
+@media (max-width: 1100px) {
+    .entry-number {
+        width: 60px;
+        height: 60px;
+        border-width: 15px;
+    }
+
+    .post {
+        padding-top: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .entry-number {
+        width: 30px;
+        height: 30px;
+        border-width: 4px;
+    }
 }
