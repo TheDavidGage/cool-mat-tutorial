@@ -48,7 +48,7 @@
 	</nav><!-- #site-navigation -->
 
 	<div class="language-select">
-		KOR | ENG
+		KR | EN
 	</div>
 
 	</div>
