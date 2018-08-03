@@ -176,7 +176,7 @@ a {
     margin: 50px;
 }
 
-.food-grid {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 50px;
@@ -213,6 +213,43 @@ a {
     position: relative;
     z-index: 2;
 }
+
+.location-info {
+    display: flex;
+    align-items: center;
+}
+
+.location-description {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location-description h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.location-description p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.map-inner {
+    position: relative;
+    padding-bottom: 75%;
+}
+
+.map-inner iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
 
 @media (max-width: 1100px) {
     .entry-number {

@@ -46,7 +46,7 @@ get_header();
 
 		<div class="section-heading" id="food">Menu</div>
 
-		<div class="food-grid">
+		<div class="grid">
 			<?php
 			if ( have_posts() ) :
 
@@ -83,7 +83,7 @@ get_header();
 
 		<div class="locations">
 
-			<div class="location">
+			<div class="location grid">
 				<!-- our map on the ledt -->
 				<div class="map">
 					<div class="map-inner">
