@@ -248,7 +248,7 @@ a {
     height: 100% !important;
 }
 
-.footer {
+.site-footer {
     padding: 50px 30px 20px 30px;
     border-top: solid 1px #ccc;
     font-size: 12px;
@@ -258,8 +258,21 @@ a {
 .site-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.footer-social {
+    display: flex;
+}
+
+.social-link,
+.social-link img {
+    display: block;
+}
+
+.social-link {
+    margin-left: 5px;
+}
 
 
 

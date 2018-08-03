@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<div class="footer-copyright">
-				&copy; 2018 cool mat. All Rights Reserved
+				&copy; <?php echo date("Y"); ?> cool mat. All Rights Reserved
 			</div>
 
 			<div class="footer-social">
