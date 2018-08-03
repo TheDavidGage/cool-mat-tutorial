@@ -19,6 +19,7 @@
 
 	<?php wp_head(); ?>
 
+	<link rel="stylesheet" href="<? bloginfo('template_url'); ?>/css/custom.css">
 	
 </head>
 
